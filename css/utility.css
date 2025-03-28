@@ -1,0 +1,64 @@
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-gray{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+    height: 10px; /* Set the height of the horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2f2f2f; /* Dark background for the scrollbar track */
+    border-radius: 5px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555555; /* Dark thumb color */
+    border-radius: 5px; /* Rounded corners for the thumb */
+    border: 2px solid #2f2f2f; /* Border around the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888888; /* Lighter color when hovering over the thumb */
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none; /* Hide the scrollbar buttons */
+  }
+  
+  /* For Firefox (using scrollbars in dark mode) */
+  /* scrollbar-width: thin;
+  scrollbar-color: #555555 #2f2f2f;  */
+  /* Dark thumb with dark track */
+  
